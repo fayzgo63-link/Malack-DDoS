@@ -30,17 +30,6 @@ def display_ascii_art():
 ╚═══════════╝
 \033[0m
 """
-while attemps < 100:
-    username = input("\033[32m┏> Enter your username:\033[30m")
-    password = input("\033[32m┗> Enter your password:\033[30m")
-
-    if username == 'kumahasiawe' and password == 'kumahasiawe':
-        print("\033[48;5;3m•••⟩⟩ PANJI-PANJI HITAM ARROYA ...!!\033[0m")
-        break
-    else:
-        print('Incorrect credentials. Check if you have Caps lock on and try again.')
-        attemps += 1
-        continue
  
     print(ascii_art)
     print("\033[1;34mCOMP1829-  Network Security\033[0m")
