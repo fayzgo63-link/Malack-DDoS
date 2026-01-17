@@ -7,10 +7,10 @@ import time
 from urlparse import urlparse
 
 # Global variables 
-TARGET_URL = ""  # Global variable to store the full URL
-TARGET_HOST = "" # Global variable to store the hostname
-TARGET_PORT = 80  # Global variable to store the port
-request_counter = 0  # Counter to track number of requests sent
+TARGET_URL = ""  # Variabel global untuk menyimpan URL lengkap.
+TARGET_HOST = "" # Variabel global untuk menyimpan nama host.
+TARGET_PORT = 80  # Variabel global untuk menyimpan port.
+request_counter = 0  # Penghitung untuk melacak jumlah permintaan yang dikirim
  
 
 def display_ascii_art():
