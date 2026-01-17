@@ -1,7 +1,10 @@
+#!usr/bin/python
+# _*_ coding: utf-8 _*_
+
+import os
 import socket
 import threading
 import argparse
-import os
 import random
 import time
 from urllib.parse import urlparse, urljoin
