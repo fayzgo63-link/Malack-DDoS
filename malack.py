@@ -16,12 +16,13 @@ request_counter = 0  # Penghitung untuk melacak jumlah permintaan yang dikirim
 def display_ascii_art():
     ascii_art = """
 \033[95m
-▓
-▓
-▓
-▓
-▓
-▓
+▓▓╗   ▓▓╗
+▓╔▓  ▓ ▓║
+▓║  ▓║ ▓║
+▓║  ▓║ ▓║
+▓║  ╚╝ ▓║
+▓║      ▓║
+╚╝      ╚╝
 ╔══════════╗
 ╚═══════════╝
 \033[0m
