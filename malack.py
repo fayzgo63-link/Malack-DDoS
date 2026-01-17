@@ -58,6 +58,10 @@ def http_flood(delay):
 # Fake function to display the server health
 def display_server_health(health):
     os.system('clear')
+    ascii_art = """
+
+
+    """
     display_ascii_art() 
     print("\033[1mTarget URL: {}\033[0m".format(TARGET_URL))  # Display the full URL
     print("\033[1mTotal Requests Sent: {}\033[0m".format(request_counter))
