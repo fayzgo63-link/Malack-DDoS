@@ -4,7 +4,7 @@ import argparse
 import os
 import random
 import time
-from urlparse import urlparse
+from urllib.parse import urlparse, urljoin
 
 # Global variables 
 TARGET_URL = ""  # Variabel global untuk menyimpan URL lengkap.
