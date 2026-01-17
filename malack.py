@@ -15,7 +15,7 @@ request_counter = 0  # Penghitung untuk melacak jumlah permintaan yang dikirim
 
 def display_ascii_art():
     ascii_art = """
-\033[95m\033[1m
+\033[95m
 ▓
 ▓
 ▓
@@ -24,6 +24,7 @@ def display_ascii_art():
 ▓
 ╔══════════╗
 ╚═══════════╝
+\033[0m
 """
     print(ascii_art)
     print("\033[1;34mCOMP1829-  Network Security\033[0m")
